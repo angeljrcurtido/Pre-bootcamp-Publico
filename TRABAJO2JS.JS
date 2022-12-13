@@ -1,4 +1,4 @@
-/*EJERCICIO 1 IMPRIMIR IMPARES 1-20
+/*EJERCICIO 1 IMPRIMIR IMPARES 1-20*/
 for (var i = 0; i<21; i ++ ){
    if (i % 2 == 0){
     console.log("");
@@ -6,13 +6,14 @@ for (var i = 0; i<21; i ++ ){
 }
 
 
-/*EJERCICIO 2 DISMINUIR MULTIPLOS DE 3
+/*EJERCICIO 2 DISMINUIR MULTIPLOS DE 3*/
+for (var i = 101; i>0; i-- ){
     if (i % 3 == 0) {
         console.log (i);
     }
 }
 
-/*EJERCICIO 3 IMPRIME LA SECUENCIA
+/*EJERCICIO 3 IMPRIME LA SECUENCIA*/
 var resta = 0;
 for (var i = 4; i>-3.6; i-=1.5){
    console.log(i)
